@@ -30,6 +30,7 @@ struct Article {
     var urlToImage: String
     var publishedArt: String
     var sourceName: String
+    var url
     init(dictionary: Dictionary<String, Any>) {
     author = dictionary["author"] as? String ?? ""
     title = dictionary["title"] as? String ?? ""
