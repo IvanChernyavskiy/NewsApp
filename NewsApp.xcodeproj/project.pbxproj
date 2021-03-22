@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		2CDAB4792603D7FF00AE2ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAB4782603D7FF00AE2ACA /* AppDelegate.swift */; };
 		2CDAB47B2603D7FF00AE2ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAB47A2603D7FF00AE2ACA /* SceneDelegate.swift */; };
-		2CDAB47D2603D7FF00AE2ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAB47C2603D7FF00AE2ACA /* ViewController.swift */; };
 		2CDAB4802603D7FF00AE2ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAB47E2603D7FF00AE2ACA /* Main.storyboard */; };
 		2CDAB4822603D80100AE2ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAB4812603D80100AE2ACA /* Assets.xcassets */; };
 		2CDAB4852603D80100AE2ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAB4832603D80100AE2ACA /* LaunchScreen.storyboard */; };
 		2CDAB48E2603D9EE00AE2ACA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAB48D2603D9EE00AE2ACA /* Article.swift */; };
 		2CDAB4922603DC9200AE2ACA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDAB4912603DC9200AE2ACA /* Model.swift */; };
+		2CE2E1B12609000300EA2AAD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E1B02609000300EA2AAD /* TableViewController.swift */; };
+		2CE2E1B426093FE000EA2AAD /* OneNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E1B326093FE000EA2AAD /* OneNewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CDAB4752603D7FF00AE2ACA /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDAB4782603D7FF00AE2ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDAB47A2603D7FF00AE2ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CDAB47C2603D7FF00AE2ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CDAB47F2603D7FF00AE2ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CDAB4812603D80100AE2ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CDAB4842603D80100AE2ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CDAB4862603D80100AE2ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CDAB48D2603D9EE00AE2ACA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		2CDAB4912603DC9200AE2ACA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2CE2E1B02609000300EA2AAD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2CE2E1B326093FE000EA2AAD /* OneNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneNewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 				2CDAB4902603DA2C00AE2ACA /* Model */,
 				2CDAB4782603D7FF00AE2ACA /* AppDelegate.swift */,
 				2CDAB47A2603D7FF00AE2ACA /* SceneDelegate.swift */,
-				2CDAB47C2603D7FF00AE2ACA /* ViewController.swift */,
+				2CE2E1B02609000300EA2AAD /* TableViewController.swift */,
+				2CE2E1B326093FE000EA2AAD /* OneNewsViewController.swift */,
 				2CDAB47E2603D7FF00AE2ACA /* Main.storyboard */,
 				2CDAB4812603D80100AE2ACA /* Assets.xcassets */,
 				2CDAB4832603D80100AE2ACA /* LaunchScreen.storyboard */,
@@ -154,8 +157,9 @@
 			files = (
 				2CDAB4922603DC9200AE2ACA /* Model.swift in Sources */,
 				2CDAB48E2603D9EE00AE2ACA /* Article.swift in Sources */,
-				2CDAB47D2603D7FF00AE2ACA /* ViewController.swift in Sources */,
 				2CDAB4792603D7FF00AE2ACA /* AppDelegate.swift in Sources */,
+				2CE2E1B12609000300EA2AAD /* TableViewController.swift in Sources */,
+				2CE2E1B426093FE000EA2AAD /* OneNewsViewController.swift in Sources */,
 				2CDAB47B2603D7FF00AE2ACA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

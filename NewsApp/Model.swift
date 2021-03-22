@@ -14,7 +14,7 @@ var urlToData: URL {
     return urlPath
 }
 
-func loadNews() {
+func loadNews(complitionHandler: (()-> Void)?) {
     let url = URL(string: "https://newsapi.org/v2/everything?q=apple&from=2021-03-17&to=2021-03-17&sortBy=popularity&apiKey=57be93f378ee4144bc061e848a5a910c")
    
     let session = URLSession(configuration: .default)
@@ -23,11 +23,12 @@ func loadNews() {
         if urlFile != nil {
     
            try? FileManager.default.copyItem(at: urlFile!, to: urlToData)
-            print(urlToData)
+           
             
             parseNews()
+            complitionHandler?()
             
-            print(articles.count)
+            
             
         }
     }
